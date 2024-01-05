@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genders">
+        <item>Чоловік</item>
+        <item>Жінка</item>
+    </string-array>
+    <string-array name="interests">
+        <item>Чоловіки</item>
+        <item>Жінки</item>
+        <item>Всі</item>
+    </string-array>
+</resources>

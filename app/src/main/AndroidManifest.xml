@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lizabeth.datingapp">
+
+    <application
+        android:name="com.lizabeth.datingapp.ui.main.MainApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TinderCloneCompose"
+        tools:targetApi="31">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <provider
+            android:name="com.lizabeth.datingapp.ui.fileprovider.ComposeFileProvider"
+            android:authorities="com.lizabeth.datingapp.fileprovider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+        <activity
+            android:name="com.lizabeth.datingapp.ui.main.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.TinderCloneCompose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

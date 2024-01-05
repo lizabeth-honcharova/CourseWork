@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Давай будемо друзями!</string>
+    <string name="send">Вiдправити</string>
+    <string name="sign_in_with_google">Увiйти з Google</string>
+    <string name="create_account">Створити аккаунт</string>
+    <string name="create_profile">Створити профiль</string>
+    <string name="personal_information">iнформацiя користувача</string>
+    <string name="enter_your_name">Введи iм\'я</string>
+    <string name="birth_date">Дата народження</string>
+    <string name="about_me">Про себе</string>
+    <string name="write_something_interesting">Напиши щось про себе…</string>
+    <string name="gender">Стать</string>
+    <string name="i_am_interested_in">Я зацiкавлений в…</string>
+    <string name="sign_up_with_google">Створити аккаунт з Google</string>
+    <string name="pick_a_date">Обери дату</string>
+    <string name="name">Iм\'я</string>
+    <string name="sign_out">Вийти</string>
+    <string name="edit_profile">Редактувати профiль</string>
+    <string name="select_content_type">Обери тип контенту</string>
+    <string name="create_new">Створити новий</string>
+    <string name="photo">Фото</string>
+    <string name="camera">Камера</string>
+    <string name="upload">Завантажити</string>
+    <string name="capture_from">Захопити з</string>
+    <string name="delete_confirmation_title">Пiдтвердження</string>
+    <string name="delete_confirmation_body">Ти впевнений, що хочеш видалити це фото?</string>
+    <string name="cancel">Вiдмiнити</string>
+    <string name="delete">Видалити</string>
+    <string name="error">Помилка</string>
+    <string name="retry">Спробуй знову</string>
+    <string name="no_more_profiles">Поряд із тобою більше нема користувачів</string>
+    <string name="generate_profiles">Згенерувати профiлi</string>
+    <string name="matches">Друзi</string>
+    <string name="say_something_nice">Напиши щось хороше!</string>
+    <string name="no_matches">Поки що жодного нового друга, але не вiшай нос!!</string>
+    <string name="you_matched_with_on">Ви знайшли нового друга %1$s, %2$s</string>
+    <string name="no_match_value_passed">Помилка! Не передано жодного значення match</string>
+    <string name="its_a">Це</string>
+    <string name="match">новий друг!</string>
+    <string name="done">Готово</string>
+</resources>
